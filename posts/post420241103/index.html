@@ -60,7 +60,7 @@
 			<p>上一次用hugo居然已是半年前了，最近因为一些事又重新想弄好。感觉有好多东西要弄，自己却选择休闲娱乐，先不细想，也先不详尽写下，就把现在要弄的搞好，首先是markdown格式，标题链接和文本这些，写了点字打开网页去看自己都看不下去。得学习一下别人的网页布局，美化一类。顺便说一下Marktext好像反应有点慢。</p>
 <p>改字体按着下载的主题对应的assets\css\xxxx.css设置，这个主题在这个目录里就一个style.css，就把它从下载的主题里移到博客根目录下同位置就可以在这里修改了。搜了一圈教程，发现都不是通用的，不同主题的文件构造好像不同，有的教程用这个文件名，有的又用别的，只好硬着头皮去看配置的代码，结果改两个地方就成功换好了字体，其实不难等有空总结，layouts\ default\baseof.html 的 googleFontsLink 改成要的字体链接，在assets\css\style.css 的fontSans 改对应名字即可。</p>
 <div style="display:flex;justify-content:center;margin-top:var(--content-gap)">
-    <div class="box">Simple?</div>
+    <div class="box"> Simple? </div>
 </div>
 <style>  
 .box {color:#fff;display:flex;justify-content:center;align-items:center;border-style: solid;  border-width: 1px;  width: 100px;  height: 100px;  background-color: #00f;  transition: width 2s, height 2s, background-color 2s, transform 2s, color 2s; }.box:hover, .box:active {  color: #000;  background-color: #fcc;  width: 200px;  height: 200px;  transform: rotate(180deg);}  
@@ -80,7 +80,7 @@ height: 60px;
 animation: finger 1s ease-in-out infinite both;
 z-index: 999;
 }@keyframes finger {
-              0%,20% {
+0%,20% {
                   -webkit-transform-origin: center center;
                   transform-origin: center center;
                   -webkit-animation-timing-function: ease-out;
@@ -91,18 +91,21 @@ z-index: 999;
                   -webkit-animation-timing-function: ease-in;
                   animation-timing-function: ease-in
               }
-<p>60% {
-transform: translate(-5px,-5px);
--webkit-animation-timing-function: ease-out;
-animation-timing-function: ease-out
-}</p>
-<p>80% {
-transform: translate(0,0);
--webkit-animation-timing-function: ease-in;
-animation-timing-function: ease-in
-}
-}
-</style></p>
+60% {
+                  transform: translate(-5px,-5px);
+                  -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out
+              }
+80% {
+                  transform: translate(0,0);
+                  -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in
+              }
+          } 
+</style>
+<style type="text/css">
+body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=89747);}
+</style>
 		</div>
 		<footer class="post__footer">
 			
@@ -177,11 +180,13 @@ animation-timing-function: ease-in
 </aside>
 		</div>
 		<footer class="footer">
+	<script async src="//finicounter.eu.org/finicounter.js"></script>
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
 			&copy; 2024 Taco&#39;Blog - About LIFE.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			<span id="finicount_views"></span>
 		</div>
 	</div>
 </footer>
