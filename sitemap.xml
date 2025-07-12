@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://WaferToca.github.io/posts/</loc>
+    <lastmod>2024-11-13T09:55:26+08:00</lastmod>
+  </url><url>
+    <loc>https://WaferToca.github.io/</loc>
+    <lastmod>2024-11-13T09:55:26+08:00</lastmod>
+  </url><url>
+    <loc>https://WaferToca.github.io/categories/</loc>
     <lastmod>2024-11-03T14:31:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://WaferToca.github.io/tags/</loc>
     <lastmod>2024-11-03T14:31:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://WaferToca.github.io/categories/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2024-11-03T14:31:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://WaferToca.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2024-11-03T14:31:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://WaferToca.github.io/posts/post420241103/</loc>
     <lastmod>2024-11-03T14:31:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-11-03T14:31:52+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/post420241103/</loc>
-    <lastmod>2024-11-03T14:31:52+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/music/</loc>
+    <loc>https://WaferToca.github.io/tags/music/</loc>
     <lastmod>2024-05-07T19:58:19+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post25_7/</loc>
+    <loc>https://WaferToca.github.io/posts/post25_7/</loc>
     <lastmod>2024-05-07T19:58:19+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post4_30/</loc>
+    <loc>https://WaferToca.github.io/posts/post4_30/</loc>
     <lastmod>2024-04-30T14:55:08+08:00</lastmod>
   </url>
 </urlset>
